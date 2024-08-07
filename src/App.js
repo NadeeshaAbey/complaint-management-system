@@ -1,5 +1,9 @@
+import UDashboard from "./pages/UDashboard";
+
 function App() {
-  return <div className="App"></div>;
+  return <div className="App">
+   <UDashboard/>
+  </div>;
 }
 
 export default App;
