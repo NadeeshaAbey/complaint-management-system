@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+}
+
+/* Navbar  */
+.Navbar {
+  background-color: #800000;
+  display: flex;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  transition: top 0.3s;
+  z-index: 1000;
+}
+
+.logo-text {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text .text {
+  color: #f5bd34;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  padding-left: 10px;
+  text-decoration: none;
+  transition: filter 300ms ease-in-out;
+}
+
+.logo-text .text:hover {
+  filter: brightness(0.9);
+}
+
+.navlinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navlinks ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.navlinks ul li {
+  list-style: none;
+}
+
+.navlinks ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin: 10px 40px;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 300ms ease-in-out;
+}
+
+.navlinks ul li .active {
+  background-color: #f5bd34;
+}
+
+.navlinks ul li a:not(.active):hover {
+  transform: scale(1.1);
+}
+
+/* Menu  */
+.Navbar .menu {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.Navbar .menu span {
+  height: 5px;
+  width: 100%;
+  background-color: #f5bd34;
+  border-radius: 0.2rem;
+}
+
+@media (max-width: 768px) {
+  .Navbar {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .Navbar .menu {
+    display: flex;
+  }
+
+  .navlinks ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    
+  }
+
+  .navlinks ul.open {
+    display: flex;
+    width: 100%;
+    
+  }
+
+  .navlinks ul li {
+    width: 100%;
+    text-align: center;
+    
+  }
+}
+
+/* Footer  */
+.Footer {
+  background-color: #f8d171;
+  padding: 20px;
+}
+
+.Footer .content {
+  display: flex;
+  margin: 20px;
+}
+
+.Footer span {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 15px;
+}
