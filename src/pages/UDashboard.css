@@ -22,7 +22,7 @@ body, html {
   
   .line {
     width: 100vw;
-    height: 80px;
+    height: 60px;
     background-color: #8F6B61;
     grid-column: span 2; /* Ensure the line spans the full width */
   }
@@ -34,8 +34,11 @@ body, html {
    font-size: 1.3rem;
    font-weight: 700;
     width: 300px;
-    height: 200px;
+    height: 170px;
     margin-left: 150px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+   
   
     
   }
