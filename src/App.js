@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+import ADashboard from "./pages/ADashboard";
+import UDashboard from "./pages/UDashboard";
+
+
+function App() {
+  return <div className="App">
+    
+ <UDashboard/>
+  </div>;
+=======
 import "./App.css";
 import Homepage from "./pages/Homepage";
 import AboutUs from "./pages/AboutUs.js";
@@ -26,6 +37,7 @@ function App() {
     </div>
     
   );
+>>>>>>> 554a01ba5716983a169ba6bfb5b0129d8ca8788e
 }
 
 export default App;

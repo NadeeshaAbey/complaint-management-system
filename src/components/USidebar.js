@@ -4,7 +4,7 @@ import user from '../assests/user.png';
 import home from '../assests/home.png'
 import query from '../assests/report.png'
 import history from '../assests/folder.png'
-import pwd from '../assests/key.png'
+//import pwd from '../assests/key.png'
 
 
 export default function USidebar() {
@@ -38,9 +38,10 @@ export default function USidebar() {
       <br/>
       <br/>
       
-      <button className="sidebar-item">
+      {/*<button className="sidebar-item">
       <img src={pwd} alt=""></img>
-        Change <br/>Password</button>
+        Change <br/>Password</button> */}
+
     </div>
     </div>
   )
