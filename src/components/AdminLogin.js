@@ -1,8 +1,12 @@
 import React from 'react'
 import './AdminLogin.css'
 import Button from './Button';
+import { useNavigate } from "react-router-dom";
 
 function AdminLogin() {
+
+  const navigate = useNavigate();
+
   return (
     <div className='adminlogin'>
       
@@ -24,7 +28,7 @@ function AdminLogin() {
             <span className='text4'>Remember Me</span>
           </div>
 
-          <Button/>
+          <Button to="/admin-dashboard"/>
 
           <span className='text5'>Forgot Password ?</span>
           
