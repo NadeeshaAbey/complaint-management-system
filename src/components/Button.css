@@ -1,0 +1,22 @@
+.button {
+    font-size: 30px;
+    border: 2px solid #000000;
+    background: linear-gradient(to right,#F88860, #C0587E);
+    border-radius: 20px;
+    text-align: center;
+    width: 150px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+
+.button:hover {
+    background: #FFCA1A;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.3);
+}
+
+
+.button:active {
+    background-color: rgba(255, 202, 26, 0.4);
+}

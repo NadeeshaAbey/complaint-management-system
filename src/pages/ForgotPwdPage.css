@@ -1,0 +1,24 @@
+.forgotpwdpage {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #E1CDBC;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgotpwdpage hr {
+    border: none;
+    border-top: 2px solid #000000;
+    width: 20%;
+}
+
+.forgotpwdpage .text {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
