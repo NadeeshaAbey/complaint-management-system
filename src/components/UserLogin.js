@@ -1,20 +1,25 @@
 import React from 'react'
 import './UserLogin.css'
 import Button from './Button';
+import { useNavigate } from 'react-router-dom';
+
 
 function UserLogin() {
+
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/forgot-pwd");
+  };
+
   return (
     <div className='userlogin'>
       
+      <span className='text1'>User Login</span>
       
-      
-        <span className='text1'>User Login</span>
-      
-        
-      
-        <form action='' method='POST'>
+      <form action='' method='POST'>
           <label className='text2'>Email</label><br/>
-          <input type='text' className='email' placeholder='Enter email' required/><br/>
+          <input type='email' className='email' placeholder='Enter email' required/><br/>
 
           <label className='text3'>Password</label><br/>
           <input type='password' className='password' placeholder='Enter password' required/><br/>
@@ -24,9 +29,9 @@ function UserLogin() {
             <span className='text4'>Remember Me</span>
           </div>
 
-          <Button/>
+          <Button to="/user-dashboard"/>
 
-          <span className='text5'>Forgot Password ?</span>
+          <span className='text5' onClick={handleClick}>Forgot Password ?</span>
           
         </form>
      

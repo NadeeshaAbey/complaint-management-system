@@ -14,7 +14,7 @@ function ForgotPwd() {
       
         <form action='' method='POST'>
           <label className='text2'>Email</label><br/>
-          <input type='text' className='email' placeholder='Enter your email' required/><br/>
+          <input type='email' className='email' placeholder='Enter your email' required/><br/>
 
           
           <ContinueBtn/>
