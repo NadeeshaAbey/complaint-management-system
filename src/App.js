@@ -7,6 +7,8 @@ import AdminLoginPage from "./pages/AdminLoginPage.js";
 import UserLoginPage from "./pages/UserLoginPage.js";
 import UDashboard from "./pages/UDashboard.js";
 import ADashboard from "./pages/ADashboard.js";
+import ForgotPwd from "./components/ForgotPwd.js";
+import NewPwd from "./components/NewPwd.js";
 
 
 
@@ -22,6 +24,8 @@ function App() {
         <Route path="/user-login-page" element={<UserLoginPage />} />
         <Route Path="/admin-dashboard" element={<ADashboard />} />
         <Route path="/user-dashboard" element={<UDashboard />} />
+        <Route path="/forgot-pwd" element={<ForgotPwd/>} />
+        <Route path="/new-pwd" element={<NewPwd/>} />
       </Routes>
       
       
