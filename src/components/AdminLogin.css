@@ -1,11 +1,10 @@
-body {
+/*body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #ffd700;
     margin: 0;
-}
+}*/
 
 .adminlogin {
     position: relative;
