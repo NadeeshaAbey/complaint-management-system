@@ -8,7 +8,7 @@ function ContinueBtn() {
 
   return (
     <div>
-        <button className='button' onClick={()=>navigate("/new-pwd")}>Continue</button>
+        <button className='button' onClick={()=>navigate("/new-pwd-page")}>Continue</button>
     </div>
   )
 }

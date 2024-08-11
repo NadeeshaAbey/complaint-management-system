@@ -8,7 +8,7 @@ function AdminLogin() {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/forgot-pwd");
+    navigate("/forgot-pwd-page");
   };
 
   return (
