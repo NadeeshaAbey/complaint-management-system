@@ -5,33 +5,36 @@ import home from '../assests/home.png'
 import query from '../assests/report.png'
 import history from '../assests/folder.png'
 //import pwd from '../assests/key.png'
-
+import { useNavigate } from "react-router-dom";
 
 export default function USidebar() {
+
+  const navigate = useNavigate();
+
   return (
-    <div className='all'>
-        <div className="sidebar">
+    <div className='allUS'>
+        <div className="sidebar1">
             <br/>
             <br/>
-      <button className="sidebar-item">
+      <button className="sidebar-item1">
       <img src={user} alt=""></img>
         My Profile</button>
       <br/>
       <br/>
       <br/>
-      <button className="sidebar-item active">
+      <button className="sidebar-item1 active" onClick={()=>navigate("/user-dashboard")}>
       <img src={home} alt=""></img>
         Dashboard</button>
       <br/>
       <br/>
       <br/>
-      <button className="sidebar-item">
+      <button className="sidebar-item1"  onClick={()=>navigate("/add-query-page")}>
       <img src={query} alt=""></img>
-        Add Query</button>
+      Add Query </button>
       <br/>
       <br/>
       <br/>
-      <button className="sidebar-item">
+      <button className="sidebar-item1">
       <img src={history} alt=""></img>
          Complaints<br></br> History</button>
       <br/>

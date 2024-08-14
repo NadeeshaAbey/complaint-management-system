@@ -43,6 +43,8 @@ export default function Query({ addComplaint }) {
     });
   };
 
+  
+
   return (
     <div className='all'>
   <USidebar/>

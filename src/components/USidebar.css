@@ -1,17 +1,16 @@
-body, html {
+
+  
+  .allUS {
+    display: flex;
+    height: 100%;
     margin: 0;
     padding: 0;
     height: 100vh;
     font-family: Arial, sans-serif;
-    width: 100vw;
+   
   }
   
-  .all {
-    display: flex;
-    height: 100%;
-  }
-  
-  .sidebar {
+  .sidebar1 {
     width: 200px;
     background-color:#8F6B61;
     color: white;
@@ -22,7 +21,7 @@ body, html {
     height: 100vh;
   }
   
-  .sidebar-item {
+  .sidebar-item1 {
     display: flex;
     align-items: center;
     justify-content: left;
@@ -38,36 +37,37 @@ body, html {
 
   }
   
-  .sidebar-item img {
+  .sidebar-item1 img {
     margin-right: 10px;
     width: 24px;  /* Adjust the width as needed */
     height: 24px; /* Adjust the height as needed */
   }
   
   
-  .sidebar-item:hover {
+  .sidebar-item1:focus {
     transform: scale(1.1); /* Scale up the item slightly on hover */
-    background-color:rgb(53, 12, 17);
+    background-color: rgb(53, 12, 17);
     border-radius: 10px;
   }
+  
   @media (max-width: 768px) {
     .all {
       flex-direction: column;
     }
   
-    .sidebar {
+    .sidebar1 {
       width: 100%;
       height: auto;
       padding-top: 0;
     }
   
-    .dashboard {
+    .dashboard1 {
       grid-template-columns: 1fr;
       width: 100%;
       height: auto;
     }
   
-    .line {
+    .line1 {
       grid-column: 1; /* Adjust the span for single column layout */
     }
   }

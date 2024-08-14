@@ -6,8 +6,10 @@ import query from '../assests/report.png'
 import history from '../assests/folder.png'
 //import pwd from '../assests/key.png'
 import manage from '../assests/user-profile.png'
+import { useNavigate } from "react-router-dom";
 
 export default function ASidebar() {
+  const navigate = useNavigate();
   return (
     <div className='all'>
         <div className="sidebar">
@@ -19,7 +21,7 @@ export default function ASidebar() {
       <br/>
       <br/>
       <br/>
-      <button className="sidebar-item active">
+      <button className="sidebar-item active" onClick={()=>navigate("/admin-dashboard")}>
       <img src={home} alt=""></img>
         Dashboard</button>
       <br/>
@@ -27,13 +29,13 @@ export default function ASidebar() {
       <br/>
       <button className="sidebar-item">
       <img src={query} alt=""></img>
-        Add Query</button>
+        Add Category</button>
       <br/>
       <br/>
       <br/>
       <button className="sidebar-item">
       <img src={history} alt=""></img>
-         Complaints<br></br> History</button>
+         Manage <br></br>Complaints </button>
       <br/>
       <br/>
       <br/>

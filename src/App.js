@@ -7,6 +7,9 @@ import AdminLoginPage from "./pages/AdminLoginPage.js";
 import UserLoginPage from "./pages/UserLoginPage.js";
 import ForgotPwdPage from "./pages/ForgotPwdPage.js";
 import NewPwdPage from "./pages/NewPwdPage.js";
+import ADashboard from "./pages/ADashboard.js";
+import UDashboard from "./pages/UDashboard.js";
+import Query from "./pages/Query.js";
 
 
 
@@ -20,8 +23,13 @@ function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/admin-login-page" element={<AdminLoginPage />} />
         <Route path="/user-login-page" element={<UserLoginPage />} />
+        <Route path="/admin-dashboard" element={<ADashboard />} />
+        <Route path="/user-dashboard" element={<UDashboard />} />
         <Route path="/forgot-pwd-page" element={<ForgotPwdPage/>} />
         <Route path="/new-pwd-page" element={<NewPwdPage/>} />
+        <Route path="/add-query-page" element={<Query/>}/>
+        
+
       </Routes>
       
       

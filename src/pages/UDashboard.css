@@ -1,16 +1,15 @@
-body, html {
+
+  
+  .Uall {
+    display: flex;
+    height: 100vh;
     margin: 0;
     padding: 0;
     height: 100vh;
     font-family: Arial, sans-serif;
-    width: 100vw;
+    
   }
-  
-  .all {
-    display: flex;
-    height: 100vh;
-  }
-  .dashboard {
+  .dashboard1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
     gap: 20px;
@@ -18,18 +17,18 @@ body, html {
     background-color: #EDD9AD;
     overflow-y: auto;
     height: 100vh;
-    /*width: calc(100vw - 200px); /* Adjust width to account for sidebar */
-    width: 1000px;
+    width: calc(100vw - 200px); /* Adjust width to account for sidebar */
+    
   }
   
-  .line {
+  .line1 {
     width: 100vw;
     height: 60px;
     background-color: #8F6B61;
     grid-column: span 2; /* Ensure the line spans the full width */
   }
   
-  .dashboard-item {
+  .dashboard-item1 {
     padding: 20px;
     color: black;
     text-align: center;
@@ -82,7 +81,7 @@ body, html {
       height: auto;
     }
   
-    .line {
+    .line1 {
       grid-column: 1; /* Adjust the span for single column layout */
     }
   }
