@@ -22,8 +22,13 @@ function App() {
         <Route path="/admin-dashboard" element={<ADashboard />} />
         <Route path="/user-dashboard" element={<UDashboard />} />
         <Route path="/user-login-page" element={<UserLoginPage />} />
+        <Route path="/admin-dashboard" element={<ADashboard />} />
+        <Route path="/user-dashboard" element={<UDashboard />} />
         <Route path="/forgot-pwd-page" element={<ForgotPwdPage/>} />
         <Route path="/new-pwd-page" element={<NewPwdPage/>} />
+        
+        
+
       </Routes>
       
       
