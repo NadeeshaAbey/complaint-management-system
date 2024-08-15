@@ -10,9 +10,6 @@ import NewPwdPage from "./pages/NewPwdPage.js";
 import ADashboard from "./pages/ADashboard.js";
 import UDashboard from "./pages/UDashboard.js";
 
-
-
-
 function App() {
   
   return (
