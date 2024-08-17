@@ -12,7 +12,7 @@ body, html {
   }
   
   .sidebar {
-    width: 200px;
+    width: 230px;
     background-color:#8F6B61;
     color: white;
     display: flex;
@@ -32,16 +32,17 @@ body, html {
     background: none;
     border: none;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     transition: transform 0.3s ease;
+    margin-top: 50px;
 
   }
   
   .sidebar-item img {
     margin-right: 10px;
-    width: 24px;  /* Adjust the width as needed */
-    height: 24px; /* Adjust the height as needed */
+    width: 28px;  /* Adjust the width as needed */
+    height: 28px; /* Adjust the height as needed */
   }
   
   
@@ -49,6 +50,9 @@ body, html {
     transform: scale(1.1); /* Scale up the item slightly on hover */
     background-color:rgb(53, 12, 17);
     border-radius: 10px;
+    width: 200px;
+    height: 60px;
+
   }
   @media (max-width: 768px) {
     .all {
