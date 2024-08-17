@@ -18,8 +18,8 @@ body, html {
     background-color: #EDD9AD;
     overflow-y: auto;
     height: 100vh;
-    /*width: calc(100vw - 200px); /* Adjust width to account for sidebar */
-    width: 1000px;
+    width: calc(100vw - 200px); /* Adjust width to account for sidebar 
+    
   }
   
   .line {
@@ -64,6 +64,26 @@ body, html {
     background-color: rgb(242, 203, 105);
    
   }
+  button[name='view'] {
+    background-color: #af7e64; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline */
+    font-size: 16px; /* Increase font size */
+    margin-top: 10px; /* Add space on top */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 25px; /* Rounded corners */
+    width: 150px;
+    height: 40px;
+    font-weight: 600;
+}
+
+button[name='view']:hover {
+    background-color:#EDD9AD ; /* Darker green on hover */
+}
   
   @media (max-width: 768px) {
     .all {
