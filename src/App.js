@@ -9,6 +9,7 @@ import ForgotPwdPage from "./pages/ForgotPwdPage.js";
 import NewPwdPage from "./pages/NewPwdPage.js";
 import ADashboard from "./pages/ADashboard.js";
 import UDashboard from "./pages/UDashboard.js";
+import Query from './pages/Query.js';
 
 function App() {
   
@@ -26,6 +27,9 @@ function App() {
         <Route path="/user-dashboard" element={<UDashboard />} />
         <Route path="/forgot-pwd-page" element={<ForgotPwdPage/>} />
         <Route path="/new-pwd-page" element={<NewPwdPage/>} />
+        <Route path="/u-dashboard" element={<UDashboard />} />
+        <Route path="/add-query" element={<Query />} />
+        <Route path="/a-dashboard" element={<ADashboard />} />
         
         
 
