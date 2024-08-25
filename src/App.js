@@ -12,32 +12,23 @@ import UDashboard from "./pages/UDashboard.js";
 import Query from './pages/Query.js';
 import ManageUsers from "./pages/ManageUsers.js";
 
+
 function App() {
   
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/" element={<Homepage />} /> 
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/admin-login-page" element={<AdminLoginPage />} />
         <Route path="/admin-dashboard" element={<ADashboard />} />
         <Route path="/user-dashboard" element={<UDashboard />} />
         <Route path="/user-login-page" element={<UserLoginPage />} />
-        <Route path="/admin-dashboard" element={<ADashboard />} />
-        <Route path="/user-dashboard" element={<UDashboard />} />
         <Route path="/forgot-pwd-page" element={<ForgotPwdPage/>} />
         <Route path="/new-pwd-page" element={<NewPwdPage/>} />
-        <Route path="/u-dashboard" element={<UDashboard />} />
         <Route path="/add-query" element={<Query />} />
-        <Route path="/a-dashboard" element={<ADashboard />} />
-        <Route path="/manage-users" element={<ManageUsers />} />
-        
-        
-
       </Routes>
-      
-      
     </div>
     
   );

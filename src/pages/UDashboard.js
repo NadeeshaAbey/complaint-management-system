@@ -10,7 +10,7 @@ export default function UDashboard() {
     
             
        
-    <div className="line"></div>
+        <div className="line"></div>
          
           <div className="dashboard-item dark-red">Total Complaints
             <br/>
