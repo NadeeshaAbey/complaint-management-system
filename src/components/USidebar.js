@@ -23,7 +23,7 @@ export default function USidebar() {
       <br/>
       <br/>
       <br/>
-      <button className="sidebar-item active" onClick={()=>navigate("/u-dashboard")}>
+      <button className="sidebar-item active" onClick={()=>navigate("/user-dashboard")}>
       <img src={home} alt=""></img>
         Dashboard</button>
       <br/>

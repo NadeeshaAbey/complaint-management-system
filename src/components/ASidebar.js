@@ -21,7 +21,7 @@ export default function ASidebar() {
       <br/>
       <br/>
       
-      <button className="sidebar-item active" onClick={()=>navigate("/a-dashboard")}>
+      <button className="sidebar-item active" onClick={()=>navigate("/admin-dashboard")}>
       <img src={home} alt=""></img>
         Dashboard</button>
       <br/>

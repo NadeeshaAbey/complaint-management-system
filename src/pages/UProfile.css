@@ -1,0 +1,25 @@
+.profile {
+    display: flex;
+    height: 100vh;
+  }
+
+
+  .pro {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    
+    background-color: #EDD9AD;
+    overflow-y: auto;
+    height: 100vh;
+    width: calc(100vw - 200px); /* Adjust width to account for sidebar */
+    
+  }
+
+
+  .line2 {
+    width: 100vw;
+    height: 60px;
+    background-color: #8F6B61;
+    grid-column: span 2; /* Ensure the line spans the full width */
+  }
