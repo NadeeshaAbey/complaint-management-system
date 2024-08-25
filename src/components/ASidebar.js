@@ -38,7 +38,7 @@ export default function ASidebar() {
          Complaints<br></br> History</button> */}
       
       
-      <button className="sidebar-item">
+      <button className="sidebar-item" onClick={()=>navigate("/manage-users")}>
       <img src={manage} alt=""></img>
          Manage Users</button>
       <br/>

@@ -10,6 +10,7 @@ import NewPwdPage from "./pages/NewPwdPage.js";
 import ADashboard from "./pages/ADashboard.js";
 import UDashboard from "./pages/UDashboard.js";
 import Query from './pages/Query.js';
+import ManageUsers from "./pages/ManageUsers.js";
 
 function App() {
   
@@ -30,6 +31,7 @@ function App() {
         <Route path="/u-dashboard" element={<UDashboard />} />
         <Route path="/add-query" element={<Query />} />
         <Route path="/a-dashboard" element={<ADashboard />} />
+        <Route path="/manage-users" element={<ManageUsers />} />
         
         
 
