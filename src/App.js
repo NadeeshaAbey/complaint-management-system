@@ -10,7 +10,7 @@ import NewPwdPage from "./pages/NewPwdPage.js";
 import ADashboard from "./pages/ADashboard.js";
 import UDashboard from "./pages/UDashboard.js";
 import Query from './pages/Query.js';
-import UProfile from "./pages/UProfile.js";
+
 
 function App() {
   
@@ -24,14 +24,10 @@ function App() {
         <Route path="/admin-dashboard" element={<ADashboard />} />
         <Route path="/user-dashboard" element={<UDashboard />} />
         <Route path="/user-login-page" element={<UserLoginPage />} />
-        <Route path="/admin-dashboard" element={<ADashboard />} />
-        <Route path="/user-dashboard" element={<UDashboard />} />
         <Route path="/forgot-pwd-page" element={<ForgotPwdPage/>} />
         <Route path="/new-pwd-page" element={<NewPwdPage/>} />
         <Route path="/add-query" element={<Query />} />
       </Routes>
-      
-      
     </div>
     
   );
