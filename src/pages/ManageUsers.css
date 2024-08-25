@@ -1,0 +1,108 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    width: 100vw;
+  }
+
+.all1 {
+    display: flex;
+    height: 100vh;
+  }
+
+  .dashboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    
+    background-color: #EDD9AD;
+    overflow-y: auto;
+    height: 100vh;
+    width: calc(100vw - 200px); /* Adjust width to account for sidebar */
+  }
+  
+  .line {
+    width: 100vw;
+    height: 60px;
+    background-color: #8F6B61;
+    grid-column: span 2; /* Ensure the line spans the full width */
+  }
+  
+  .topic2 {
+    font-size: 28px;
+    font-weight: bold;
+   margin-top: -90px;
+    text-align: center;
+    margin-left: 500px;
+  }
+  
+  /* Form Container */
+  .form2 {
+    width: 740px;
+    height: 420px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: -500px;
+    
+ 
+   
+   
+    
+  
+    
+  }
+  
+  /* Table Styling */
+  .table2 {
+    width: 75%;
+    border-collapse: collapse;
+  }
+  
+  .table2 td {
+    padding: 10px;
+    vertical-align: top;
+  }
+  
+  .table2 td.label {
+    text-align: right;
+    padding-right: 15px;
+    
+  }
+  
+  .table2 .data input,
+  .table2 .data select,
+  .table2 .data textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .table2 .data textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .table2 input[type='submit'] {
+    background-color: #8F6B61;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .table2 input[type='submit']:hover {
+    background-color: #b28b80;
+  }
+  
+  /* Sidebar Placeholder */
+  /*.usidebar {
+    width: 250px;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+  }*/

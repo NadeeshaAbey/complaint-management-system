@@ -10,6 +10,7 @@ import NewPwdPage from "./pages/NewPwdPage.js";
 import ADashboard from "./pages/ADashboard.js";
 import UDashboard from "./pages/UDashboard.js";
 import Query from './pages/Query.js';
+import ManageUsers from "./pages/ManageUsers.js";
 
 
 function App() {
