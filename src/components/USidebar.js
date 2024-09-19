@@ -16,7 +16,7 @@ export default function USidebar() {
         <div className="sidebar">
             <br/>
             <br/>
-      <button className="sidebar-item">
+      <button className="sidebar-item" onClick={()=>navigate("/user-profile")}>
       <img src={user} alt=""></img>
         My Profile</button>
       <br/>
